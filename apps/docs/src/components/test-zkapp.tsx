@@ -189,6 +189,16 @@ export const TestZkApp = () => {
 				<div className="card-body gap-4">
 					<h2 className="card-title">Queries</h2>
 					<div className="flex flex-col gap-2">
+						<button
+							type="button"
+							className="btn btn-primary"
+							onClick={() => {
+								fetchAccounts()
+								fetchNetworkId()
+							}}
+						>
+							Test Button for Concurrent Provider Query
+						</button>
 						<label>mina_accounts / mina_requestAccounts</label>
 						<div className="flex justify-between items-center gap-4">
 							<input
