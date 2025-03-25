@@ -1,6 +1,6 @@
 {
-	"name": "@mina-js/utils",
-	"version": "0.1.1",
+	"name": "@mina-js/klesia-utils",
+	"version": "0.1.0",
 	"type": "module",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -17,11 +17,13 @@
 		"cleanup": "rimraf dist .turbo"
 	},
 	"dependencies": {
+		"@urql/core": "5.1.1",
 		"mina-signer": "3.0.7",
 		"serialize-error": "12.0.0",
 		"superjson": "2.2.2"
 	},
 	"devDependencies": {
+		"@mina-js/utils": "workspace:*",
 		"zod": "3.24.2"
 	},
 	"peerDependencies": {
