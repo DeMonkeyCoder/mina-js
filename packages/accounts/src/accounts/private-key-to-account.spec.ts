@@ -52,7 +52,7 @@ it("signs a zkapp command", async () => {
 			},
 		},
 		feePayer: {
-			feePayer: "B62qmWKtvNQTtUqo1LxfEEDLyWMg59cp6U7c4uDC7aqgaCEijSc3Hx5",
+			publicKey: "B62qmWKtvNQTtUqo1LxfEEDLyWMg59cp6U7c4uDC7aqgaCEijSc3Hx5",
 			fee: "100000000",
 			nonce: "0",
 			memo: "Test",
